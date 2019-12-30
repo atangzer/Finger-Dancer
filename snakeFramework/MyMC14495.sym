@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="MyMC14495">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2018-10-30T6:56:58</timestamp>
+    <timestamp>2019-12-30T16:32:39</timestamp>
     <pin polarity="Input" x="0" y="-480" name="D3" />
     <pin polarity="Input" x="0" y="-400" name="D0" />
     <pin polarity="Input" x="0" y="-320" name="LE" />
