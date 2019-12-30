@@ -1,0 +1,73 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Seg7_Dev_drc.vf
+// /___/   /\     Timestamp : 12/31/2019 00:04:37
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family kintex7 -verilog Seg7_Dev_drc.vf -w C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sch
+//Design Name: Seg7_Dev
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Seg7_Dev(Flash, 
+                Hexs, 
+                Les, 
+                Point, 
+                Scan, 
+                AN, 
+                SEGMENT);
+
+    input Flash;
+    input [15:0] Hexs;
+    input [3:0] Les;
+    input [3:0] Point;
+    input [1:0] Scan;
+   output [3:0] AN;
+   output [7:0] SEGMENT;
+   
+   wire G0;
+   wire [3:0] HEX;
+   wire XLXN_1;
+   wire XLXN_3;
+   wire XLXN_5;
+   wire XLXN_34;
+   
+   MyMC14495  XLXI_1 (.D0(HEX[0]), 
+                     .D1(HEX[1]), 
+                     .D2(HEX[2]), 
+                     .D3(HEX[3]), 
+                     .LE(XLXN_5), 
+                     .point(XLXN_1), 
+                     .a(SEGMENT[0]), 
+                     .b(SEGMENT[1]), 
+                     .c(SEGMENT[2]), 
+                     .d(SEGMENT[3]), 
+                     .e(SEGMENT[4]), 
+                     .f(SEGMENT[5]), 
+                     .g(SEGMENT[6]), 
+                     .P(SEGMENT[7]));
+   dispsync  XLXI_2 (.Hexs(Hexs[15:0]), 
+                    .Les(Les[3:0]), 
+                    .Point(Point[3:0]), 
+                    .Scan(Scan[1:0]), 
+                    .AN(AN[3:0]), 
+                    .Hex(HEX[3:0]), 
+                    .LE(XLXN_3), 
+                    .p(XLXN_1));
+   AND2  XLXI_3 (.I0(XLXN_3), 
+                .I1(Flash), 
+                .O(XLXN_5));
+   VCC  XLXI_4 (.P(XLXN_34));
+   GND  XLXI_5 (.G(G0));
+endmodule
