@@ -1,8 +1,0 @@
-sch2hdl -intstyle ise -family kintex7 -verilog Seg7_Dev_drc.vf -w C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sch 
-sch2sym -intstyle ise -family kintex7 -refsym Seg7_Dev C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sch C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sym 
-sch2hdl -intstyle ise -family kintex7 -verilog Seg7_Dev_drc.vf -w C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sch 
-sch2hdl -intstyle ise -family kintex7 -verilog Seg7_Dev_drc.vf -w C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sch 
-sch2hdl -intstyle ise -family kintex7 -verilog Seg7_Dev_drc.vf -w C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sch 
-sch2sym -intstyle ise -family kintex7 -refsym Seg7_Dev C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sch C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sym 
-sch2sym -intstyle ise -family kintex7 -w -refsym Seg7_Dev C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sch C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sym 
-sch2hdl -intstyle ise -family kintex7 -verilog Seg7_Dev_drc.vf -w C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/snakeFramework/Seg7_Dev.sch 
