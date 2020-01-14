@@ -1,0 +1,54 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Mux4to1_8b.vf
+// /___/   /\     Timestamp : 01/14/2020 08:54:13
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog "C:/Vincent/ZJU/ZJU_Fall_2019/Digital_Logic_Design/Project/Our project/MUX4to1_8b/Mux4to1_8b.vf" -w "C:/Vincent/ZJU/ZJU_Fall_2019/Digital_Logic_Design/Project/Our project/MUX4to1_8b/Mux4to1_8b.sch"
+//Design Name: Mux4to1_8b
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Mux4to1_8b(I0, 
+                  I1, 
+                  I2, 
+                  I3, 
+                  S0, 
+                  S1, 
+                  O);
+
+    input [7:0] I0;
+    input [7:0] I1;
+    input [7:0] I2;
+    input [7:0] I3;
+    input S0;
+    input S1;
+   output [7:0] O;
+   
+   wire [7:0] XLXN_22;
+   wire [7:0] XLXN_23;
+   
+   MUX2to1_8b  XLXI_1 (.I0(I2[7:0]), 
+                      .I1(I3[7:0]), 
+                      .S(S0), 
+                      .O(XLXN_22[7:0]));
+   MUX2to1_8b  XLXI_2 (.I0(I0[7:0]), 
+                      .I1(I1[7:0]), 
+                      .S(S0), 
+                      .O(XLXN_23[7:0]));
+   MUX2to1_8b  XLXI_3 (.I0(XLXN_23[7:0]), 
+                      .I1(XLXN_22[7:0]), 
+                      .S(S1), 
+                      .O(O[7:0]));
+endmodule
