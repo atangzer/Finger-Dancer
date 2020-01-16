@@ -32,7 +32,7 @@
         <port polarity="Output" name="Co" />
         <port polarity="Output" name="Sum(3:0)" />
         <blockdef name="adder_1bit">
-            <timestamp>2020-1-13T4:29:47</timestamp>
+            <timestamp>2020-1-15T23:55:15</timestamp>
             <rect width="256" x="64" y="-192" height="192" />
             <line x2="0" y1="-160" y2="-160" x1="64" />
             <line x2="0" y1="-96" y2="-96" x1="64" />

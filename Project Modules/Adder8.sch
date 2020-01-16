@@ -13,11 +13,7 @@
         <signal name="A(7:4)" />
         <signal name="B(7:4)" />
         <signal name="B(3:0)" />
-        <signal name="XLXN_8(3:0)" />
-        <signal name="XLXN_9(3:0)" />
-        <signal name="XLXN_11(3:0)" />
         <signal name="XLXN_12" />
-        <signal name="XLXN_13" />
         <signal name="C" />
         <signal name="Co" />
         <signal name="Sum(3:0)" />
@@ -28,7 +24,7 @@
         <port polarity="Input" name="C" />
         <port polarity="Output" name="Co" />
         <blockdef name="Adder4">
-            <timestamp>2020-1-13T4:43:3</timestamp>
+            <timestamp>2020-1-16T0:2:7</timestamp>
             <rect width="256" x="64" y="-192" height="192" />
             <rect width="64" x="0" y="-172" height="24" />
             <line x2="0" y1="-160" y2="-160" x1="64" />
@@ -132,9 +128,9 @@
         <iomarker fontsize="28" x="2976" y="1424" name="Sum(7:0)" orien="R90" />
         <bustap x2="2880" y1="704" y2="704" x1="2976" />
         <branch name="Sum(3:0)">
-            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="2360" y="704" type="branch" />
-            <wire x2="2360" y1="704" y2="704" x1="1840" />
-            <wire x2="2880" y1="704" y2="704" x1="2360" />
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2360" y="704" type="branch" />
+            <wire x2="2368" y1="704" y2="704" x1="1840" />
+            <wire x2="2880" y1="704" y2="704" x1="2368" />
         </branch>
         <bustap x2="2880" y1="1216" y2="1216" x1="2976" />
         <branch name="Sum(7:4)">

@@ -14,7 +14,6 @@
         <signal name="C" />
         <signal name="S" />
         <signal name="S0(7:0)" />
-        <signal name="XLXN_10" />
         <port polarity="Output" name="Co" />
         <port polarity="Output" name="O(7:0)" />
         <port polarity="Input" name="S1A(7:0)" />
@@ -23,7 +22,7 @@
         <port polarity="Input" name="S" />
         <port polarity="Input" name="S0(7:0)" />
         <blockdef name="Adder8">
-            <timestamp>2020-1-13T4:54:34</timestamp>
+            <timestamp>2020-1-16T0:9:30</timestamp>
             <rect width="256" x="64" y="-192" height="192" />
             <rect width="64" x="0" y="-172" height="24" />
             <line x2="0" y1="-160" y2="-160" x1="64" />
@@ -60,8 +59,6 @@
         </block>
     </netlist>
     <sheet sheetnum="1" width="3520" height="2720">
-        <instance x="1280" y="1056" name="XLXI_2" orien="R0">
-        </instance>
         <branch name="XLXN_1(7:0)">
             <wire x2="1744" y1="896" y2="896" x1="1664" />
             <wire x2="1744" y1="896" y2="1376" x1="1744" />
@@ -104,5 +101,7 @@
         <iomarker fontsize="28" x="1584" y="1312" name="S" orien="R180" />
         <iomarker fontsize="28" x="1632" y="1440" name="S0(7:0)" orien="R180" />
         <iomarker fontsize="28" x="2496" y="1312" name="O(7:0)" orien="R0" />
+        <instance x="1280" y="1056" name="XLXI_2" orien="R0">
+        </instance>
     </sheet>
 </drawing>
