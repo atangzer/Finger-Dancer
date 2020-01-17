@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/Past Lab Modules/dispsync.v} -lang verilog -prj Scoreboard -o dispsync.spl -module dispsync -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 dispsync.spl {C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/Project Modules/Scoreboard/Scoreboard/dispsync.sym} 

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work {C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/Project Modules/sec_clk/sec_clk.v} -lang verilog -prj Scoreboard -o sec_clk.spl -module sec_clk -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 sec_clk.spl {C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/Project Modules/Scoreboard/Scoreboard/sec_clk.sym} 
+vhdtdtfi -lib work {C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/Project Modules/sec_clk/sec_clk.v} -lang verilog -prj Scoreboard -o sec_clk.spl -module sec_clk -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 sec_clk.spl {C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/Project Modules/Scoreboard/Scoreboard/sec_clk.sym} 

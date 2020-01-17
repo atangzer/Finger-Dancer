@@ -1,0 +1,8 @@
+[Inputs]
+clk
+[Outputs]
+cout
+[BiDir]
+[ATTRIBUTES]
+VeriModel sec_clk
+
