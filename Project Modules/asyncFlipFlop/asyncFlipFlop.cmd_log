@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family kintex7 -verilog asyncFlipFlop_drc.vf -w {C:/Users/Anna/Documents/GitHub/finalProject/Project Modules/asyncFlipFlop/asyncFlipFlop.sch} 

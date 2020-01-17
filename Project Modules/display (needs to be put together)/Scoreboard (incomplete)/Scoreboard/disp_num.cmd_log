@@ -1,3 +1,4 @@
 sch2hdl -intstyle ise -family kintex7 -verilog disp_num_drc.vf -w {C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/Past Lab Modules/disp_num.sch} 
 sch2sym -intstyle ise -family kintex7 -w -refsym disp_num {C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/Past Lab Modules/disp_num.sch} {C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/Project Modules/Scoreboard/Scoreboard/disp_num.sym} 
 sch2hdl -intstyle ise -family kintex7 -verilog disp_num_drc.vf -w {C:/Users/Anna/Documents/GitHub/Logic-Project-Snake/Past Lab Modules/disp_num.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog disp_num_drc.vf -w {C:/Users/Anna/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/disp_num.sch} 

@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    18:49:06 01/16/2020 
+// Create Date:    15:13:39 11/06/2018 
 // Design Name: 
-// Module Name:    scoreboard 
+// Module Name:    clkdiv 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -18,18 +18,15 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module scoreboard(
-			input wire clk,
-			input wire [7:0] SW,
-			input wire [3:0] btn,
-			output wire[3:0] AN,
-			output wire[7:0]SEGMENT
+module clkdiv(input clk,
+				input rst,
+				output reg [31:0] clkdiv
     );
+	 
+	 always @ (posedge clk or posedge rst) begin
+			if (rst) clkdiv <= 0;
+			else clkdiv <= clkdiv + 1'b1;
+	 end
 
-			wire [15:0] num;
-			
-			CreatNumber m0(btn,num);
-			
-			disp_num m1(clk,num,SW[7:4],SW[3:0],1'b0,AN,SEGMENT);
 
 endmodule

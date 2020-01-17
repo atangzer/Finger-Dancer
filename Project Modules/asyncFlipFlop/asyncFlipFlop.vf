@@ -1,0 +1,65 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : asyncFlipFlop.vf
+// /___/   /\     Timestamp : 01/17/2020 14:34:00
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog "C:/Users/Anna/Documents/GitHub/finalProject/Project Modules/asyncFlipFlop/asyncFlipFlop.vf" -w "C:/Users/Anna/Documents/GitHub/finalProject/Project Modules/asyncFlipFlop/asyncFlipFlop.sch"
+//Design Name: asyncFlipFlop
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module asyncFlipFlop(C, 
+                     CLR, 
+                     D, 
+                     PRE, 
+                     NotQ, 
+                     Q);
+
+    input C;
+    input CLR;
+    input D;
+    input PRE;
+   output NotQ;
+   output Q;
+   
+   wire XLXN_1;
+   wire XLXN_5;
+   wire XLXN_9;
+   wire XLXN_15;
+   wire NotQ_DUMMY;
+   wire Q_DUMMY;
+   
+   assign NotQ = NotQ_DUMMY;
+   assign Q = Q_DUMMY;
+   NAND2  XLXI_3 (.I0(XLXN_9), 
+                 .I1(D), 
+                 .O(XLXN_15));
+   NAND2  XLXI_4 (.I0(XLXN_9), 
+                 .I1(XLXN_15), 
+                 .O(XLXN_5));
+   AND2  XLXI_5 (.I0(XLXN_1), 
+                .I1(C), 
+                .O(XLXN_9));
+   INV  XLXI_6 (.I(C), 
+               .O(XLXN_1));
+   NAND3  XLXI_7 (.I0(CLR), 
+                 .I1(XLXN_5), 
+                 .I2(Q_DUMMY), 
+                 .O(NotQ_DUMMY));
+   NAND3  XLXI_8 (.I0(NotQ_DUMMY), 
+                 .I1(XLXN_15), 
+                 .I2(PRE), 
+                 .O(Q_DUMMY));
+endmodule
