@@ -1,4 +1,0 @@
-select figure at 884 1384 8 -branches -sn=1
-add instance ScoreUp 720 1648 R0 -sn=1
-select figure at 1101 1734 8 -branches -sn=1
-select figure at 911 1699 8 -branches -sn=1
