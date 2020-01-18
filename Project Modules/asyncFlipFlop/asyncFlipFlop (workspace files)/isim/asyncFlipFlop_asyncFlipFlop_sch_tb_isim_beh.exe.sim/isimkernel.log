@@ -1,0 +1,28 @@
+Command line:
+   asyncFlipFlop_asyncFlipFlop_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60273
+
+Fri Jan 17 15:28:22 2020
+
+
+ Elaboration Time: 0.203125 sec
+
+ Current Memory Usage: 5475.41 Meg
+
+ Total Signals          : 46
+ Total Nets             : 25
+ Total Signal Drivers   : 17
+ Total Blocks           : 9
+ Total Primitive Blocks : 7
+ Total Processes        : 20
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 141
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 5003.55 Meg
+
+Fri Jan 17 15:35:43 2020
+
