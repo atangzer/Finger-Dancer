@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1s / 1ms
 
 ////////////////////////////////////////////////////////////////////////////////
 // Company: 
@@ -28,35 +28,96 @@ module timing_sim;
 	reg clk;
 	reg gameState;
 	reg [3:0] roundTime;
+	reg reset;
 
 	// Outputs
 	wire cout;
+	wire [3:0] sum;
 
 	// Instantiate the Unit Under Test (UUT)
 	timing uut (
 		.clk(clk), 
 		.gameState(gameState), 
 		.roundTime(roundTime), 
-		.cout(cout)
+		.cout(cout),
+		.reset(reset),
+		.sum(sum)
 	);
 
 	initial begin
 		// Initialize Inputs
 		clk = 0;
-		gameState = 1;
+		gameState = 0;
 		roundTime = 5;
+		reset = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
       
 		// Add stimulus here
-		
-			forever begin
-			clk=1'b0;
-			#1;
-			clk=~clk;
-			#1;
-			end
+			#1 reset = 1;
+			#1 reset = 0;
+			#1 gameState=1;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
+			#1 clk = 1;
+			#1 clk = 0;
 		
 	end
       

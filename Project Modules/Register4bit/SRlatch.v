@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    19:18:37 01/15/2020 
+// Create Date:    14:24:18 01/17/2020 
 // Design Name: 
-// Module Name:    freqDivider 
+// Module Name:    SRlatch 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -18,30 +18,19 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module freqDivider(
-    input clk,
-    input [3:0] freq,
-    input count,
-    output cout,
-	 output [3:0] state
+module SRlatch(
+    input S,
+    input R,
+    output Q,
+    output notQ
     );
-	 reg [3:0] sum=0;
-	 reg reset=0;
-	 
-	 always@ (posedge clk) begin
-		if (sum<freq) begin
-			if(count==1) sum=sum+1;
-			else reset=0;
-		end else begin
-			sum=0;
-			reset=1;
-		end
-	end
-	
-	assign cout=reset;
-	assign state=sum;
-			
-	 
 
+	wire q, notq;
+	
+	NOR2 nor0(.I0(S), .I1(q), .O(notq));
+	NOR2 nor1(.I0(R), .I1(notq), .O(q));
+	
+	assign Q=q;
+	assign notQ=notq;
 
 endmodule

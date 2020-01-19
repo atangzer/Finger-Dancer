@@ -22,7 +22,8 @@ module freqDivider(
     input clk,
     input [3:0] freq,
     input count,
-    output cout
+    output cout,
+	 output [3:0] state
     );
 	 reg [3:0] sum=0;
 	 reg reset=0;
@@ -38,6 +39,7 @@ module freqDivider(
 	end
 	
 	assign cout=reset;
+	assign state=sum;
 			
 	 
 
