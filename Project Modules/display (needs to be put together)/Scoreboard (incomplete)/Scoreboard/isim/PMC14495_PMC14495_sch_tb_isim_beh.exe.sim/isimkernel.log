@@ -1,0 +1,28 @@
+Command line:
+   PMC14495_PMC14495_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53115
+
+Sun Jan 19 16:26:17 2020
+
+
+ Elaboration Time: 0.25 sec
+
+ Current Memory Usage: 5169.69 Meg
+
+ Total Signals          : 233
+ Total Nets             : 62
+ Total Signal Drivers   : 54
+ Total Blocks           : 46
+ Total Primitive Blocks : 44
+ Total Processes        : 56
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 180
+
+ Total Simulation Time: 0.8125 sec
+
+ Current Memory Usage: 5169.69 Meg
+
+Sun Jan 19 16:26:30 2020
+

@@ -19,16 +19,13 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module scoreboard(
+			input 
 			input wire clk,
 			input wire [7:0] SW,
-			input wire [3:0] btn,
+			input wire [15:0] num,
 			output wire[3:0] AN,
 			output wire[7:0]SEGMENT
     );
-
-			wire [15:0] num;
-			
-			CreatNumber m0(btn,num);
 			
 			disp_num m1(clk,num,SW[7:4],SW[3:0],1'b0,AN,SEGMENT);
 

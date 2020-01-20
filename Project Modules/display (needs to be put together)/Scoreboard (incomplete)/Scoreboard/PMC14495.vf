@@ -7,11 +7,11 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : PMC14495.vf
-// /___/   /\     Timestamp : 01/14/2020 18:51:11
+// /___/   /\     Timestamp : 01/19/2020 02:31:42
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: sch2hdl -intstyle ise -family kintex7 -verilog "C:/Vincent/ZJU/ZJU_Fall_2019/Digital_Logic_Design/Project/Our project/DisNum/PMC14495.vf" -w "C:/Vincent/ZJU/ZJU_Fall_2019/Digital_Logic_Design/Project/Our project/DisNum/PMC14495.sch"
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog "C:/Users/joshua/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/PMC14495.vf" -w "C:/Users/joshua/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/PMC14495.sch"
 //Design Name: PMC14495
 //Device: kintex7
 //Purpose:

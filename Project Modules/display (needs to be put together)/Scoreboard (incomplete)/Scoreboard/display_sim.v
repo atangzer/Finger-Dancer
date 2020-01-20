@@ -1,0 +1,94 @@
+`timescale 1ns / 1ps
+
+////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer:
+//
+// Create Date:   13:49:05 01/19/2020
+// Design Name:   display
+// Module Name:   C:/Users/joshua/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/display_sim.v
+// Project Name:  Scoreboard
+// Target Device:  
+// Tool versions:  
+// Description: 
+//
+// Verilog Test Fixture created by ISE for module: display
+//
+// Dependencies:
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+////////////////////////////////////////////////////////////////////////////////
+
+module display_sim;
+
+	// Inputs
+	reg [7:0] score;
+	reg [3:0] pattern;
+	reg C;
+	reg clk;
+	reg res;
+	wire [15:0] test;
+	wire [11:0] test0;
+
+	// Outputs
+	wire [7:0] SEG;
+	wire [3:0] AN;
+	wire [3:0] LED;
+
+	// Instantiate the Unit Under Test (UUT)
+	display uut (
+		.score(score), 
+		.pattern(pattern), 
+		.C(C), 
+		.clk(clk), 
+		.res(res), 
+		.SEG(SEG), 
+		.AN(AN), 
+		.LED(LED),
+		.test(test),
+		.test0(test0)
+	);
+
+	initial begin
+		// Initialize Inputs
+		score = 10;
+		pattern = 0;
+		C = 0;
+		clk = 0;
+		res = 0;
+
+		// Wait 100 ns for global reset to finish
+		#100;
+        
+		// Add stimulus here
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		C = 1;
+		#10 C = 0;
+		#10 res = 1;
+		#10 C = 1;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+
+	end
+      
+endmodule
+

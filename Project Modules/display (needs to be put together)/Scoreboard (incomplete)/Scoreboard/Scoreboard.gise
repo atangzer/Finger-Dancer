@@ -22,21 +22,116 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Scoreboard.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MUX16bit_sim_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MUXarray_sim_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PMC14495.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PMC14495.stx"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="PMC14495.vf"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="PMC14495.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PMC14495_PMC14495_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PMC14495_PMC14495_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="PMC14495_PMC14495_sch_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="clkdiv.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="clkdiv.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder4bit_sim_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="disp_num.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="disp_num.vf"/>
     <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="disp_num_drc.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="disp_num_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="display_sim_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="dispsync.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="dispsync.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="sec_clk.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sec_clk.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1579428267" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1579428267">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1579479961" xil_pn:in_ck="6264489068451246712" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1579479961">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CreatNumber.v"/>
+      <outfile xil_pn:name="MUX16bit_sim.v"/>
+      <outfile xil_pn:name="MUX4to1_16bit.v"/>
+      <outfile xil_pn:name="MUX4to1_4bitANDarray.v"/>
+      <outfile xil_pn:name="MUX4to1_8bit.v"/>
+      <outfile xil_pn:name="MUX4to1_ANDarray.v"/>
+      <outfile xil_pn:name="MUXarray_sim.v"/>
+      <outfile xil_pn:name="PMC14495_sim.v"/>
+      <outfile xil_pn:name="binaryToBCD.v"/>
+      <outfile xil_pn:name="clkdiv.v"/>
+      <outfile xil_pn:name="decoder4bit.v"/>
+      <outfile xil_pn:name="decoder4bit_sim.v"/>
+      <outfile xil_pn:name="display.v"/>
+      <outfile xil_pn:name="displayNumber.v"/>
+      <outfile xil_pn:name="display_sim.v"/>
+      <outfile xil_pn:name="dispsync.v"/>
+      <outfile xil_pn:name="scoreboard.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1579473496" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="169730152325071990" xil_pn:start_ts="1579473496">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1579473501" xil_pn:in_ck="1228673107054622206" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3678166082781228970" xil_pn:start_ts="1579473496">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="PMC14495.vf"/>
+      <outfile xil_pn:name="disp_num.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1579428273" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3766213160139277594" xil_pn:start_ts="1579428273">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1579479961" xil_pn:in_ck="6941147770415827026" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1579479961">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CreatNumber.v"/>
+      <outfile xil_pn:name="MUX16bit_sim.v"/>
+      <outfile xil_pn:name="MUX4to1_16bit.v"/>
+      <outfile xil_pn:name="MUX4to1_4bitANDarray.v"/>
+      <outfile xil_pn:name="MUX4to1_8bit.v"/>
+      <outfile xil_pn:name="MUX4to1_ANDarray.v"/>
+      <outfile xil_pn:name="MUXarray_sim.v"/>
+      <outfile xil_pn:name="PMC14495.vf"/>
+      <outfile xil_pn:name="PMC14495_sim.v"/>
+      <outfile xil_pn:name="binaryToBCD.v"/>
+      <outfile xil_pn:name="clkdiv.v"/>
+      <outfile xil_pn:name="decoder4bit.v"/>
+      <outfile xil_pn:name="decoder4bit_sim.v"/>
+      <outfile xil_pn:name="disp_num.vf"/>
+      <outfile xil_pn:name="display.v"/>
+      <outfile xil_pn:name="displayNumber.v"/>
+      <outfile xil_pn:name="display_sim.v"/>
+      <outfile xil_pn:name="dispsync.v"/>
+      <outfile xil_pn:name="scoreboard.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1579479970" xil_pn:in_ck="6941147770415827026" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3520692498747846842" xil_pn:start_ts="1579479961">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="PMC14495_PMC14495_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="PMC14495_PMC14495_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1579479971" xil_pn:in_ck="3073300134873798192" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8061492139751589545" xil_pn:start_ts="1579479970">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="PMC14495_PMC14495_sch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
 
 </generated_project>
