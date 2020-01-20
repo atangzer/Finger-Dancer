@@ -1,5 +1,8 @@
+//clock
+NET "clk" LOC = AC18 | IOSTANDARD = LVCMOS18;
+
 //button for INIT
-NET "BTN" LOC = AF13  | IOSTANDARD = LVCMOS15;
+NET "BTN" LOC = W16  | IOSTANDARD = LVCMOS18;
 
 //switches for input
 NET "SW[0]" LOC = AA10 | IOSTANDARD = LVCMOS15; 
