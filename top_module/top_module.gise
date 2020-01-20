@@ -22,41 +22,75 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="top_module.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="compare4bit_sim_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ScoreUp_ScoreUp_sch_tb_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="compare4bit_sim_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="compare4bit_sim_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="display_sim_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="patternRegister_sim_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="scoreRegister_sim_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="scoreRegister_sim_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="scoreRegister_sim_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sec_clk_sim_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="timing_sim_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="updatePattern_sim_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="updateScore_sim_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1579518489" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1579518489">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579518912" xil_pn:in_ck="3596052011461287685" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1579518912">
+    <transform xil_pn:end_ts="1579526738" xil_pn:in_ck="-688600308929879334" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1579526738">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Adder4.v"/>
+      <outfile xil_pn:name="Adder8.v"/>
       <outfile xil_pn:name="Dflipflopinit.v"/>
+      <outfile xil_pn:name="MUX2to1_8b.v"/>
+      <outfile xil_pn:name="MUX4to1_16bit.v"/>
+      <outfile xil_pn:name="MUX4to1_4bitANDarray.v"/>
+      <outfile xil_pn:name="MUX4to1_8bit.v"/>
+      <outfile xil_pn:name="MUX4to1_ANDarray.v"/>
+      <outfile xil_pn:name="PMC14495.v"/>
       <outfile xil_pn:name="SRlatch.v"/>
+      <outfile xil_pn:name="ScoreUp.v"/>
+      <outfile xil_pn:name="ScoreUp_sim.v"/>
+      <outfile xil_pn:name="adder_1bit.v"/>
+      <outfile xil_pn:name="binaryToBCD.v"/>
+      <outfile xil_pn:name="clkdiv.v"/>
       <outfile xil_pn:name="compare1bit.v"/>
       <outfile xil_pn:name="compare4bit.v"/>
       <outfile xil_pn:name="compare4bit_sim.v"/>
+      <outfile xil_pn:name="decoder4bit.v"/>
+      <outfile xil_pn:name="display.v"/>
+      <outfile xil_pn:name="displayNumber.v"/>
+      <outfile xil_pn:name="display_sim.v"/>
+      <outfile xil_pn:name="dispsync.v"/>
       <outfile xil_pn:name="freqDivider.v"/>
+      <outfile xil_pn:name="patternRegister.v"/>
+      <outfile xil_pn:name="patternRegister_sim.v"/>
+      <outfile xil_pn:name="register4bit_async.v"/>
+      <outfile xil_pn:name="scoreRegister.v"/>
+      <outfile xil_pn:name="scoreRegister_sim.v"/>
+      <outfile xil_pn:name="sec_clk.v"/>
+      <outfile xil_pn:name="sec_clk_sim.v"/>
       <outfile xil_pn:name="timing.v"/>
       <outfile xil_pn:name="timing_sim.v"/>
+      <outfile xil_pn:name="updatePattern.v"/>
+      <outfile xil_pn:name="updatePattern_sim.v"/>
+      <outfile xil_pn:name="updateScore.v"/>
+      <outfile xil_pn:name="updateScore_sim.v"/>
     </transform>
-    <transform xil_pn:end_ts="1579518912" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5411082759870652967" xil_pn:start_ts="1579518912">
+    <transform xil_pn:end_ts="1579526764" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="423408088607021536" xil_pn:start_ts="1579526764">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579518912" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4729345830890177971" xil_pn:start_ts="1579518912">
+    <transform xil_pn:end_ts="1579526764" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3518388195370038932" xil_pn:start_ts="1579526764">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -64,43 +98,67 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579518912" xil_pn:in_ck="3596052011461287685" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1579518912">
+    <transform xil_pn:end_ts="1579526738" xil_pn:in_ck="-688600308929879334" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1579526738">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Adder4.v"/>
+      <outfile xil_pn:name="Adder8.v"/>
       <outfile xil_pn:name="Dflipflopinit.v"/>
+      <outfile xil_pn:name="MUX2to1_8b.v"/>
+      <outfile xil_pn:name="MUX4to1_16bit.v"/>
+      <outfile xil_pn:name="MUX4to1_4bitANDarray.v"/>
+      <outfile xil_pn:name="MUX4to1_8bit.v"/>
+      <outfile xil_pn:name="MUX4to1_ANDarray.v"/>
+      <outfile xil_pn:name="PMC14495.v"/>
       <outfile xil_pn:name="SRlatch.v"/>
+      <outfile xil_pn:name="ScoreUp.v"/>
+      <outfile xil_pn:name="ScoreUp_sim.v"/>
+      <outfile xil_pn:name="adder_1bit.v"/>
+      <outfile xil_pn:name="binaryToBCD.v"/>
+      <outfile xil_pn:name="clkdiv.v"/>
       <outfile xil_pn:name="compare1bit.v"/>
       <outfile xil_pn:name="compare4bit.v"/>
       <outfile xil_pn:name="compare4bit_sim.v"/>
+      <outfile xil_pn:name="decoder4bit.v"/>
+      <outfile xil_pn:name="display.v"/>
+      <outfile xil_pn:name="displayNumber.v"/>
+      <outfile xil_pn:name="display_sim.v"/>
+      <outfile xil_pn:name="dispsync.v"/>
       <outfile xil_pn:name="freqDivider.v"/>
+      <outfile xil_pn:name="patternRegister.v"/>
+      <outfile xil_pn:name="patternRegister_sim.v"/>
+      <outfile xil_pn:name="register4bit_async.v"/>
+      <outfile xil_pn:name="scoreRegister.v"/>
+      <outfile xil_pn:name="scoreRegister_sim.v"/>
+      <outfile xil_pn:name="sec_clk.v"/>
+      <outfile xil_pn:name="sec_clk_sim.v"/>
       <outfile xil_pn:name="timing.v"/>
       <outfile xil_pn:name="timing_sim.v"/>
+      <outfile xil_pn:name="updatePattern.v"/>
+      <outfile xil_pn:name="updatePattern_sim.v"/>
+      <outfile xil_pn:name="updateScore.v"/>
+      <outfile xil_pn:name="updateScore_sim.v"/>
     </transform>
-    <transform xil_pn:end_ts="1579518921" xil_pn:in_ck="3596052011461287685" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8215961368367535252" xil_pn:start_ts="1579518912">
+    <transform xil_pn:end_ts="1579526773" xil_pn:in_ck="-688600308929879334" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7315859712632077978" xil_pn:start_ts="1579526764">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="compare4bit_sim_beh.prj"/>
-      <outfile xil_pn:name="compare4bit_sim_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="scoreRegister_sim_beh.prj"/>
+      <outfile xil_pn:name="scoreRegister_sim_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1579518922" xil_pn:in_ck="-7873306916863630960" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="370964167871499215" xil_pn:start_ts="1579518921">
+    <transform xil_pn:end_ts="1579526774" xil_pn:in_ck="-2071102875070190614" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2152237197596078929" xil_pn:start_ts="1579526773">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="compare4bit_sim_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="scoreRegister_sim_isim_beh.wdb"/>
     </transform>
   </transforms>
 

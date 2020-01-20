@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    03:24:15 01/20/2020 
+// Create Date:    03:31:07 01/20/2020 
 // Design Name: 
 // Module Name:    MUX4to1_8bit 
 // Project Name: 
@@ -18,6 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
+
 module MUX4to1_8bit(
 	 input [1:0] S,
     input [7:0] I0,
