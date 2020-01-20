@@ -19,7 +19,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module scoreboard(
-			input 
+			input [15:0] num,
 			input wire clk,
 			input wire [7:0] SW,
 			input wire [15:0] num,

@@ -30,13 +30,13 @@ module display_sim;
 	reg C;
 	reg clk;
 	reg res;
-	wire [15:0] test;
-	wire [11:0] test0;
+	wire [15:0] currentOutput;
+	wire [11:0] scoreBCD;
 
 	// Outputs
 	wire [7:0] SEG;
 	wire [3:0] AN;
-	wire [3:0] LED;
+	wire [7:0] LED;
 
 	// Instantiate the Unit Under Test (UUT)
 	display uut (
@@ -48,15 +48,15 @@ module display_sim;
 		.SEG(SEG), 
 		.AN(AN), 
 		.LED(LED),
-		.test(test),
-		.test0(test0)
+		.test(currentOutput),
+		.test0(scoreBCD)
 	);
 
 	initial begin
 		// Initialize Inputs
-		score = 10;
-		pattern = 0;
-		C = 0;
+		score = 8'b10000000;
+		pattern = 4'b0110;
+		C = 1;
 		clk = 0;
 		res = 0;
 
@@ -74,10 +74,35 @@ module display_sim;
 		#10 clk = 0;
 		#10 clk = 1;
 		#10 clk = 0;
-		C = 1;
-		#10 C = 0;
+		
 		#10 res = 1;
-		#10 C = 1;
+		
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		
+		#10 C = 0;
+		res = 0;
+		
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		
+		#10 res = 1;
+		
 		#10 clk = 1;
 		#10 clk = 0;
 		#10 clk = 1;

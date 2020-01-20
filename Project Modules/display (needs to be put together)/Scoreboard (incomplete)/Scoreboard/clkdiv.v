@@ -20,13 +20,15 @@
 //////////////////////////////////////////////////////////////////////////////////
 module clkdiv(input clk,
 				input rst,
-				output reg [31:0] clkdiv
+				output [1:0] clkdiv
     );
+	 reg [1:0] sum=2'b00;
 	 
 	 always @ (posedge clk or posedge rst) begin
-			if (rst) clkdiv <= 0;
-			else clkdiv <= clkdiv + 1'b1;
+			if (rst) sum = 0;
+			else sum = sum + 1'b1;
 	 end
-
+	 
+	 assign clkdiv=sum;
 
 endmodule

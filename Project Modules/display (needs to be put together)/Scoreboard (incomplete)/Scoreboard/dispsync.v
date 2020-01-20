@@ -20,21 +20,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 module dispsync(input [15:0]Hexs,
 					input  [1:0] Scan,
-					input  [3:0] Point,
-					input  [3:0] Les,
-					output reg [3:0] Hex,
-					output reg p,LE,
-					output reg [3:0] AN
+					output [3:0] Hex,
+					output[3:0] AN
     );
 	 
-	 always @* begin
-			case(Scan)
-				2'b00:begin Hex<=Hexs[3:0];	AN<=4'b1110;	p<=Point[0];	LE<=Les[0]; end
-				2'b01:begin Hex<=Hexs[7:4];	AN<=4'b1101;	p<=Point[1];	LE<=Les[1]; end
-				2'b10:begin Hex<=Hexs[11:8];	AN<=4'b1011;	p<=Point[2];	LE<=Les[2]; end
-				2'b11:begin Hex<=Hexs[15:12];	AN<=4'b0111;	p<=Point[3];	LE<=Les[3]; end
-			endcase
-	 end
-
+	wire [3:0] w_AN;
+	
+	decoder4bit decoder0(.S(Scan), .O(w_AN));
+	
+	MUX4to1_4bitANDarray hexANDs(.code(w_AN), .I0(Hexs[3:0]), .I1(Hexs[7:4]), .I2(Hexs[11:8]), .I3(Hexs[15:12]), .O(Hex));
+	
+	assign AN=w_AN;
 
 endmodule
