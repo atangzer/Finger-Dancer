@@ -7,15 +7,26 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/MUX4to1_16bit C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|MUX4to1_16bit.v</ClosedNode>
+         <ClosedNode>/MUX4to1_8bit C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|MUX4to1_8bit.v</ClosedNode>
+         <ClosedNode>/display C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|display.v</ClosedNode>
+         <ClosedNode>/display C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|display.v/chooseDigitDisplay - MUX4to1_16bit/bit0to3 - MUX4to1_4bitANDarray</ClosedNode>
+         <ClosedNode>/display C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|display.v/chooseDigitDisplay - MUX4to1_16bit/bit12to15 - MUX4to1_4bitANDarray</ClosedNode>
+         <ClosedNode>/display C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|display.v/chooseDigitDisplay - MUX4to1_16bit/bit4to7 - MUX4to1_4bitANDarray</ClosedNode>
+         <ClosedNode>/display C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|display.v/chooseDigitDisplay - MUX4to1_16bit/bit8to11 - MUX4to1_4bitANDarray</ClosedNode>
+         <ClosedNode>/display C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|display.v/choosePattern - MUX4to1_8bit</ClosedNode>
+         <ClosedNode>/display C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|display.v/m1 - disp_num</ClosedNode>
+         <ClosedNode>/displayNumber C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|displayNumber.v</ClosedNode>
+         <ClosedNode>/scoreboard C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|scoreboard.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>m1 - disp_num (C:/Users/Anna/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/disp_num.sch)</SelectedItem>
+         <SelectedItem>display (C:/Users/joshua/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/display.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000404000000020000000000000000000000000200000064ffffffff000000810000000300000002000004040000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000e8000000020000000000000000000000000200000064ffffffff000000810000000300000002000000e80000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>m1 - disp_num (C:/Users/Anna/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/disp_num.sch)</CurrentItem>
+      <CurrentItem>display (C:/Users/joshua/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/display.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -27,7 +38,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000144000000010000000100000000000000000000000064ffffffff000000810000000000000001000001440000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -38,9 +49,9 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000144000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000000780000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000130000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000000640000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>C:\Users\Anna\Documents\GitHub\finalProject\Past Lab Modules\clkdiv.v</CurrentItem>
+      <CurrentItem>clkdiv.v</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -50,7 +61,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f7000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -67,7 +78,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000144000000010000000100000000000000000000000064ffffffff000000810000000000000001000001440000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -76,14 +87,94 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Check Design Rules</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000144000000010000000100000000000000000000000064ffffffff000000810000000000000001000001440000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Check Design Rules</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/MUX16bit_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|MUX16bit_sim.v/uut - MUX4to1_16bit</ClosedNode>
+         <ClosedNode>/MUX16bit_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|MUX16bit_sim.v/uut - MUX4to1_16bit/bit0to3 - MUX4to1_4bitANDarray</ClosedNode>
+         <ClosedNode>/MUX16bit_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|MUX16bit_sim.v/uut - MUX4to1_16bit/bit12to15 - MUX4to1_4bitANDarray</ClosedNode>
+         <ClosedNode>/MUX16bit_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|MUX16bit_sim.v/uut - MUX4to1_16bit/bit4to7 - MUX4to1_4bitANDarray</ClosedNode>
+         <ClosedNode>/MUX16bit_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|MUX16bit_sim.v/uut - MUX4to1_16bit/bit8to11 - MUX4to1_4bitANDarray</ClosedNode>
+         <ClosedNode>/MUX4to1_16bit C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|MUX4to1_16bit.v</ClosedNode>
+         <ClosedNode>/MUXarray_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|MUXarray_sim.v</ClosedNode>
+         <ClosedNode>/PMC14495_PMC14495_sch_tb C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|PMC14495_sim.v</ClosedNode>
+         <ClosedNode>/clkdiv_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|clkdiv_sim.v</ClosedNode>
+         <ClosedNode>/decoder4bit_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|decoder4bit_sim.v</ClosedNode>
+         <ClosedNode>/displayNumber_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|displayNumber_sim.v</ClosedNode>
+         <ClosedNode>/display_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|display_sim.v</ClosedNode>
+         <ClosedNode>/display_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|display_sim.v/uut - display/chooseDigitDisplay - MUX4to1_16bit</ClosedNode>
+         <ClosedNode>/display_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|display_sim.v/uut - display/choosePattern - MUX4to1_8bit</ClosedNode>
+         <ClosedNode>/dispsync_sim C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|dispsync_sim.v</ClosedNode>
+         <ClosedNode>/scoreboard C:|Users|joshua|Documents|GitHub|finalProject|Project Modules|display (needs to be put together)|Scoreboard (incomplete)|Scoreboard|scoreboard.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>display_sim (C:/Users/joshua/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/display_sim.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000144000000020000000000000000000000000200000064ffffffff000000810000000300000002000001440000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>display_sim (C:/Users/joshua/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/display_sim.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" ></ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
 </Project>

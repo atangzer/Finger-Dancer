@@ -1,0 +1,4 @@
+verilog work "compare1bit.v"
+verilog work "compare4bit.v"
+verilog work "compare4bit_sim.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

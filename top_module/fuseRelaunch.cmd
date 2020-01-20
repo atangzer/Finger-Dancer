@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/joshua/Documents/GitHub/finalProject/top_module/compare4bit_sim_isim_beh.exe" -prj "C:/Users/joshua/Documents/GitHub/finalProject/top_module/compare4bit_sim_beh.prj" "work.compare4bit_sim" "work.glbl" 
