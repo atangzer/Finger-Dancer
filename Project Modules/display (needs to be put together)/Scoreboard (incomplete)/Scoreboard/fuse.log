@@ -40,8 +40,8 @@ Compiling module display
 Compiling module display_sim
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
+Waiting for 5 sub-compilation(s) to finish...
 Compiled 20 Verilog Units
 Built simulation executable C:/Users/joshua/Documents/GitHub/finalProject/Project Modules/display (needs to be put together)/Scoreboard (incomplete)/Scoreboard/display_sim_isim_beh.exe
-Fuse Memory Usage: 31164 KB
-Fuse CPU Usage: 2109 ms
+Fuse Memory Usage: 31416 KB
+Fuse CPU Usage: 2515 ms
