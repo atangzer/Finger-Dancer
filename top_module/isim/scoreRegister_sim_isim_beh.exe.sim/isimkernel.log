@@ -2,14 +2,14 @@ Command line:
    scoreRegister_sim_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  50289
+     -socket  50838
 
-Mon Jan 20 05:26:20 2020
+Mon Jan 20 14:06:55 2020
 
 
- Elaboration Time: 0.296875 sec
+ Elaboration Time: 0.328125 sec
 
- Current Memory Usage: 5170.25 Meg
+ Current Memory Usage: 5169.63 Meg
 
  Total Signals          : 622
  Total Nets             : 215
@@ -20,9 +20,9 @@ Mon Jan 20 05:26:20 2020
  Total Traceable Variables  : 21
  Total Scalar Nets and Variables : 305
 
- Total Simulation Time: 0.4375 sec
+ Total Simulation Time: 0.40625 sec
 
- Current Memory Usage: 5170.25 Meg
+ Current Memory Usage: 5484.2 Meg
 
-Mon Jan 20 05:26:40 2020
+Mon Jan 20 14:07:31 2020
 

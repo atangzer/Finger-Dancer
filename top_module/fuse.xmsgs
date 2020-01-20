@@ -5,23 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/joshua/Documents/GitHub/finalProject/top_module/scoreRegister.v" Line 28: Port <arg fmt="%s" index="1">notQ</arg> is not connected to this instance
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/joshua/Documents/GitHub/finalProject/top_module/scoreRegister.v" Line 29: Port <arg fmt="%s" index="1">notQ</arg> is not connected to this instance
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/joshua/Documents/GitHub/finalProject/top_module/register4bit_async.v" Line 30: Port <arg fmt="%s" index="1">Y</arg> is not connected to this instance
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/joshua/Documents/GitHub/finalProject/top_module/register4bit_async.v" Line 31: Port <arg fmt="%s" index="1">Y</arg> is not connected to this instance
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/joshua/Documents/GitHub/finalProject/top_module/register4bit_async.v" Line 32: Port <arg fmt="%s" index="1">Y</arg> is not connected to this instance
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/joshua/Documents/GitHub/finalProject/top_module/register4bit_async.v" Line 33: Port <arg fmt="%s" index="1">Y</arg> is not connected to this instance
-</msg>
-
 </messages>
 
