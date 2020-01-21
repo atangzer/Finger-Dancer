@@ -48,7 +48,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579605102" xil_pn:in_ck="7556424371097353430" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1579605101">
+    <transform xil_pn:end_ts="1579607716" xil_pn:in_ck="7556424371097353430" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1579607716">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Adder4.v"/>
@@ -96,11 +96,11 @@
       <outfile xil_pn:name="updateScore.v"/>
       <outfile xil_pn:name="updateScore_sim.v"/>
     </transform>
-    <transform xil_pn:end_ts="1579594677" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7368325144068154254" xil_pn:start_ts="1579594677">
+    <transform xil_pn:end_ts="1579607517" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7368325144068154254" xil_pn:start_ts="1579607517">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579594677" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-865005175200821082" xil_pn:start_ts="1579594677">
+    <transform xil_pn:end_ts="1579607517" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-865005175200821082" xil_pn:start_ts="1579607517">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -108,7 +108,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1579605102" xil_pn:in_ck="7556424371097353430" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1579605102">
+    <transform xil_pn:end_ts="1579607716" xil_pn:in_ck="7556424371097353430" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1579607716">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Adder4.v"/>
@@ -156,7 +156,7 @@
       <outfile xil_pn:name="updateScore.v"/>
       <outfile xil_pn:name="updateScore_sim.v"/>
     </transform>
-    <transform xil_pn:end_ts="1579605114" xil_pn:in_ck="7556424371097353430" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1236096179605503102" xil_pn:start_ts="1579605102">
+    <transform xil_pn:end_ts="1579607730" xil_pn:in_ck="7556424371097353430" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1236096179605503102" xil_pn:start_ts="1579607716">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -166,7 +166,7 @@
       <outfile xil_pn:name="top_sim_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1579605116" xil_pn:in_ck="-914555808205018130" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5634328536428991120" xil_pn:start_ts="1579605114">
+    <transform xil_pn:end_ts="1579607731" xil_pn:in_ck="-914555808205018130" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5634328536428991120" xil_pn:start_ts="1579607730">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>

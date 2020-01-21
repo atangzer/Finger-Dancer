@@ -2,13 +2,15 @@ module top(
 	input [3:0] SW,
 	input board_clk,
 	input rst_btn,
+	input test_clk,
 	output [7:0] LED,
 	output [3:0] AN,
 	output [7:0] SEG,
-	input test_clk,
 	output cout,
 	output game,
-	output [3:0] count
+	output [3:0] count,
+	output roundres, 
+	output [3:0] pattern
     );
 	 
 	 reg rINIT;
@@ -32,12 +34,11 @@ module top(
 	 
 	 wire [3:0] w_currentInput;
 	 
-	 //pbdebounce aj0(.button(rst_btn), .clk(board_clk), .pbreg(w_rst));
-	 assign w_rst=rst_btn;
+	 pbdebounce aj0(.button(rst_btn), .clk(test_clk), .pbreg(w_rst));
 	 
 	 sec_clk sec_clk0(.clk(board_clk), .cout(w_sec_clk));
 	 
-	 Dflipflopinit gameStateReg(.D(w_roundResult), .C(w_invRclk), .set(w_rst), .clr(w_INIT), .Q(w_gameState));
+	 Dflipflopinit gameStateReg(.D(w_roundResult), .C(w_rclk), .set(w_rst), .clr(w_INIT), .Q(w_gameState));
 	 
 	 assign game=w_gameState;
 	 
@@ -48,11 +49,15 @@ module top(
 	 
 	 compare4bit compare0(.A(w_currentPattern), .B(w_currentInput), .equal(w_roundResult));
 	 
+	 assign roundres=w_roundResult;
+	 
 	 updateScore upS0(.currentScore(w_currentScore), .res(w_roundResult), .nextScore(w_nextScore));
 	 
 	 updatePattern upP0(.currentPattern(w_currentPattern), .nextPattern(w_nextPattern));
 	 
 	 patternRegister pReg0(.I(w_nextPattern), .C(w_rclk), .INIT(w_INIT), .O(w_currentPattern));
+	 
+	 assign pattern=w_currentPattern;
 	 
 	 scoreRegister sReg0(.I(w_nextScore), .C(w_rclk), .INIT(w_INIT), .O(w_currentScore));
 	 

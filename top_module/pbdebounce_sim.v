@@ -47,11 +47,23 @@ module pbdebounce_sim;
 		#100;
         
 		#10 button = 1;
-		#120000 button =0;
-		forever begin
-			#1 clk = 1;
-			#1 clk = 0;
-		end
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 button = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 button = 1;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 button = 0;
+		#10 clk = 1;
+		#10 clk = 0;
+		#10 clk = 1;
+		#10 clk = 0;
 		// Add stimulus here
 
 	end

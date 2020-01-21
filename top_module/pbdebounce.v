@@ -23,19 +23,18 @@ module pbdebounce(
 	input wire button, 
 	output reg pbreg
     );
-	 
-	 wire clk_1ms;
 
-	reg [7:0] pbshift=8'b00000000;
-	
-	clk_1ms clk_1ms0(clk, clk_1ms);
+	initial begin
+		pbreg = 0;
+	end
+	reg [1:0] pbshift=2'b00;
 
-	always@(posedge clk_1ms) begin
+	always@(posedge clk) begin
 		pbshift=pbshift<<1;
 		pbshift[0]=button;
-		if (pbshift==8'b0)
+		if (pbshift==2'b00)
 			pbreg=0;
-		if (pbshift==8'hFF)
+		if (pbshift==2'b11)
 			pbreg=1;	
 	end
 

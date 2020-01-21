@@ -28,18 +28,19 @@ Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/timing.v" into library work
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/sec_clk.v" into library work
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/scoreRegister.v" into library work
+Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/pbdebounce.v" into library work
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/patternRegister.v" into library work
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/inputRegister.v" into library work
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/display.v" into library work
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/compare4bit.v" into library work
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" into library work
-WARNING:HDLCompiler:35 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 23: <w_INIT> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 25: <w_INIT> is already implicitly declared earlier.
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top_sim.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:604 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 46: Module instantiation should have an instance name
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 40: Port Y is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 61: Port test is not connected to this instance
+WARNING:HDLCompiler:604 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 47: Module instantiation should have an instance name
+WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 41: Port Y is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 66: Port test is not connected to this instance
 WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/timing.v" Line 34: Port Y is not connected to this instance
 WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/updateScore.v" Line 27: Port Co is not connected to this instance
 WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/updatePattern.v" Line 26: Port Co is not connected to this instance
@@ -53,6 +54,7 @@ WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_mo
 WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/inputRegister.v" Line 28: Port notQ is not connected to this instance
 WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/display.v" Line 54: Port test is not connected to this instance
 Completed static elaboration
+Compiling module pbdebounce
 Compiling module sec_clk
 Compiling module INV
 Compiling module AND2
@@ -95,8 +97,8 @@ Compiling module top
 Compiling module top_sim
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 8 sub-compilation(s) to finish...
-Compiled 41 Verilog Units
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 42 Verilog Units
 Built simulation executable C:/Users/joshua/Documents/GitHub/finalProject/top_module/top_sim_isim_beh.exe
-Fuse Memory Usage: 31644 KB
-Fuse CPU Usage: 2702 ms
+Fuse Memory Usage: 31980 KB
+Fuse CPU Usage: 3218 ms

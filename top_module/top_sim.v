@@ -37,6 +37,8 @@ module top_sim;
 	wire cout;
 	wire game;
 	wire [3:0] count;
+	wire roundres;
+	wire [3:0] pattern;
 
 	// Instantiate the Unit Under Test (UUT)
 	top uut (
@@ -49,7 +51,9 @@ module top_sim;
 		.test_clk(test_clk),
 		.cout(cout),
 		.game(game), 
-		.count(count)
+		.count(count),
+		.roundres(roundres),
+		.pattern(pattern)
 	);
 
 	initial begin
@@ -65,6 +69,16 @@ module top_sim;
 		// Add stimulus here
 		
 		#1 rst_btn = 1;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 rst_btn = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 rst_btn = 1;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
 		#1 rst_btn = 0;
 		
 		#1 board_clk = 1;
@@ -146,11 +160,111 @@ module top_sim;
 		#1 test_clk = 0;
 		#1 test_clk = 1;
 		#1 test_clk = 0;
-		#1 test_clk = 1;
 		
 		#1 rst_btn = 1;
 		#1 rst_btn = 0;
 		
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		
+		#1 SW = 4'b1011;
+		
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
 		#1 test_clk = 0;
 		#1 test_clk = 1;
 		#1 test_clk = 0;
