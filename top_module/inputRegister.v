@@ -25,6 +25,6 @@ module inputRegister(
 	output [3:0] O
     );
 	 
-	 register4bit_async(.D(I), .C(C), .set(4'b0), .clr({INIT, INIT, INIT, INIT}), .Q(O));
+	 register4bit_async r0(.D(I), .C(C), .set(4'b0), .clr({INIT, INIT, INIT, INIT}), .Q(O));
 
 endmodule

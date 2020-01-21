@@ -1,0 +1,6 @@
+verilog work "SRlatch.v"
+verilog work "Dflipflopinit.v"
+verilog work "register4bit_async.v"
+verilog work "inputRegister.v"
+verilog work "inputRegister_sim.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
