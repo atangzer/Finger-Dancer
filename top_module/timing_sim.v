@@ -27,7 +27,7 @@ module timing_sim;
 	reg clk;
 	reg gameState;
 	reg [3:0] roundTime;
-	reg reset;
+	reg INIT;
 
 	// Outputs
 	wire cout;
@@ -39,7 +39,7 @@ module timing_sim;
 		.gameState(gameState), 
 		.roundTime(roundTime), 
 		.cout(cout),
-		.reset(reset),
+		.INIT(INIT),
 		.sum(sum)
 	);
 
@@ -48,14 +48,14 @@ module timing_sim;
 		clk = 0;
 		gameState = 0;
 		roundTime = 5;
-		reset = 0;
+		INIT = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
       
 		// Add stimulus here
-			#1 reset = 1;
-			#1 reset = 0;
+			#1 INIT = 1;
+			#1 INIT = 0;
 			#1 gameState=1;
 			#1 clk = 1;
 			#1 clk = 0;
@@ -63,12 +63,12 @@ module timing_sim;
 			#1 clk = 0;
 			#1 clk = 1;
 			#1 clk = 0;
-			#1 reset = 1;
+			#1 INIT = 1;
 			#1 clk = 1;
 			#1 clk = 0;
 			#1 clk = 1;
 			#1 clk = 0;
-			#1 reset = 0;
+			#1 INIT = 0;
 			#1 clk = 1;
 			#1 clk = 0;
 			#1 clk = 1;

@@ -1,0 +1,138 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf
+top_constraints.ucf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xc7k160t,ffg676,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock board_clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+AN<0>       |        12.282(R)|      SLOW  |         4.754(R)|      FAST  |board_clk_BUFGP   |   0.000|
+AN<1>       |        12.349(R)|      SLOW  |         4.688(R)|      FAST  |board_clk_BUFGP   |   0.000|
+AN<2>       |        12.222(R)|      SLOW  |         4.710(R)|      FAST  |board_clk_BUFGP   |   0.000|
+AN<3>       |        12.373(R)|      SLOW  |         4.686(R)|      FAST  |board_clk_BUFGP   |   0.000|
+SEG<0>      |        17.067(R)|      SLOW  |         5.604(R)|      FAST  |board_clk_BUFGP   |   0.000|
+SEG<1>      |        16.815(R)|      SLOW  |         5.628(R)|      FAST  |board_clk_BUFGP   |   0.000|
+SEG<2>      |        16.707(R)|      SLOW  |         5.599(R)|      FAST  |board_clk_BUFGP   |   0.000|
+SEG<3>      |        16.708(R)|      SLOW  |         5.518(R)|      FAST  |board_clk_BUFGP   |   0.000|
+SEG<4>      |        17.043(R)|      SLOW  |         5.774(R)|      FAST  |board_clk_BUFGP   |   0.000|
+SEG<5>      |        16.404(R)|      SLOW  |         5.541(R)|      FAST  |board_clk_BUFGP   |   0.000|
+SEG<6>      |        16.433(R)|      SLOW  |         5.445(R)|      FAST  |board_clk_BUFGP   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock board_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+board_clk      |    2.894|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW<0>          |LED<0>         |   12.096|
+SW<0>          |LED<1>         |   12.865|
+SW<0>          |LED<2>         |   11.949|
+SW<0>          |LED<3>         |   12.729|
+SW<0>          |LED<4>         |   12.070|
+SW<0>          |LED<5>         |   12.950|
+SW<0>          |LED<6>         |   12.514|
+SW<0>          |LED<7>         |   12.901|
+SW<0>          |SEG<0>         |  170.402|
+SW<0>          |SEG<1>         |  170.210|
+SW<0>          |SEG<2>         |  170.149|
+SW<0>          |SEG<3>         |  170.277|
+SW<0>          |SEG<4>         |  170.254|
+SW<0>          |SEG<5>         |  169.515|
+SW<0>          |SEG<6>         |  169.888|
+SW<1>          |LED<0>         |   12.443|
+SW<1>          |LED<1>         |   13.212|
+SW<1>          |LED<2>         |   12.296|
+SW<1>          |LED<3>         |   13.076|
+SW<1>          |LED<4>         |   12.417|
+SW<1>          |LED<5>         |   13.297|
+SW<1>          |LED<6>         |   12.861|
+SW<1>          |LED<7>         |   13.248|
+SW<1>          |SEG<0>         |  170.749|
+SW<1>          |SEG<1>         |  170.557|
+SW<1>          |SEG<2>         |  170.496|
+SW<1>          |SEG<3>         |  170.624|
+SW<1>          |SEG<4>         |  170.601|
+SW<1>          |SEG<5>         |  169.862|
+SW<1>          |SEG<6>         |  170.235|
+SW<2>          |LED<0>         |   11.500|
+SW<2>          |LED<1>         |   12.269|
+SW<2>          |LED<2>         |   11.353|
+SW<2>          |LED<3>         |   12.133|
+SW<2>          |LED<4>         |   11.474|
+SW<2>          |LED<5>         |   12.354|
+SW<2>          |LED<6>         |   11.918|
+SW<2>          |LED<7>         |   12.305|
+SW<2>          |SEG<0>         |  169.806|
+SW<2>          |SEG<1>         |  169.614|
+SW<2>          |SEG<2>         |  169.553|
+SW<2>          |SEG<3>         |  169.681|
+SW<2>          |SEG<4>         |  169.658|
+SW<2>          |SEG<5>         |  168.919|
+SW<2>          |SEG<6>         |  169.292|
+SW<3>          |LED<0>         |   11.930|
+SW<3>          |LED<1>         |   12.699|
+SW<3>          |LED<2>         |   11.783|
+SW<3>          |LED<3>         |   12.563|
+SW<3>          |LED<4>         |   11.904|
+SW<3>          |LED<5>         |   12.784|
+SW<3>          |LED<6>         |   12.348|
+SW<3>          |LED<7>         |   12.735|
+SW<3>          |SEG<0>         |  170.236|
+SW<3>          |SEG<1>         |  170.044|
+SW<3>          |SEG<2>         |  169.983|
+SW<3>          |SEG<3>         |  170.111|
+SW<3>          |SEG<4>         |  170.088|
+SW<3>          |SEG<5>         |  169.349|
+SW<3>          |SEG<6>         |  169.722|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Jan 21 04:45:44 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5093 MB
+
+
+

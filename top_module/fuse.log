@@ -1,61 +1,17 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/joshua/Documents/GitHub/finalProject/top_module/top_sim_isim_beh.exe -prj C:/Users/joshua/Documents/GitHub/finalProject/top_module/top_sim_beh.prj work.top_sim work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/joshua/Documents/GitHub/finalProject/top_module/timing_sim_isim_beh.exe -prj C:/Users/joshua/Documents/GitHub/finalProject/top_module/timing_sim_beh.prj work.timing_sim work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/MUX4to1_ANDarray.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/adder_1bit.v" into library work
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/SRlatch.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/MUX4to1_4bitANDarray.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/decoder4bit.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/Adder4.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/PMC14495.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/MUX2to1_8b.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/dispsync.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/Dflipflopinit.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/clkdiv.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/Adder8.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/ScoreUp.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/register4bit_async.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/MUX4to1_8bit.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/MUX4to1_16bit.v" into library work
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/freqDivider.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/displayNumber.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/compare1bit.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/binaryToBCD.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/updateScore.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/updatePattern.v" into library work
+Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/Dflipflopinit.v" into library work
 Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/timing.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/sec_clk.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/scoreRegister.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/pbdebounce.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/patternRegister.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/inputRegister.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/display.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/compare4bit.v" into library work
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" into library work
-WARNING:HDLCompiler:35 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 25: <w_INIT> is already implicitly declared earlier.
-Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top_sim.v" into library work
+Analyzing Verilog file "C:/Users/joshua/Documents/GitHub/finalProject/top_module/timing_sim.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:604 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 47: Module instantiation should have an instance name
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 41: Port Y is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/top.v" Line 66: Port test is not connected to this instance
 WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/timing.v" Line 34: Port Y is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/updateScore.v" Line 27: Port Co is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/updatePattern.v" Line 26: Port Co is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/patternRegister.v" Line 28: Port notQ is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/register4bit_async.v" Line 30: Port Y is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/register4bit_async.v" Line 31: Port Y is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/register4bit_async.v" Line 32: Port Y is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/register4bit_async.v" Line 33: Port Y is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/scoreRegister.v" Line 28: Port notQ is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/scoreRegister.v" Line 29: Port notQ is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/inputRegister.v" Line 28: Port notQ is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/joshua/Documents/GitHub/finalProject/top_module/display.v" Line 54: Port test is not connected to this instance
 Completed static elaboration
-Compiling module pbdebounce
-Compiling module sec_clk
 Compiling module INV
 Compiling module AND2
 Compiling module OR2
@@ -66,39 +22,10 @@ Compiling module XOR2
 Compiling module AND3
 Compiling module freqDivider
 Compiling module timing
-Compiling module compare1bit
-Compiling module AND4
-Compiling module compare4bit
-Compiling module adder_1bit
-Compiling module Adder4
-Compiling module Adder8
-Compiling module MUX2to1_8b
-Compiling module ScoreUp
-Compiling module updateScore
-Compiling module updatePattern
-Compiling module register4bit_async
-Compiling module patternRegister
-Compiling module scoreRegister
-Compiling module inputRegister
-Compiling module binaryToBCD
-Compiling module decoder4bit
-Compiling module OR4
-Compiling module MUX4to1_ANDarray
-Compiling module MUX4to1_4bitANDarray
-Compiling module MUX4to1_16bit
-Compiling module MUX4to1_8bit
-Compiling module clkdiv
-Compiling module dispsync
-Compiling module OR3
-Compiling module PMC14495
-Compiling module displayNumber
-Compiling module display
-Compiling module top
-Compiling module top_sim
+Compiling module timing_sim
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 6 sub-compilation(s) to finish...
-Compiled 42 Verilog Units
-Built simulation executable C:/Users/joshua/Documents/GitHub/finalProject/top_module/top_sim_isim_beh.exe
-Fuse Memory Usage: 31980 KB
-Fuse CPU Usage: 3218 ms
+Compiled 12 Verilog Units
+Built simulation executable C:/Users/joshua/Documents/GitHub/finalProject/top_module/timing_sim_isim_beh.exe
+Fuse Memory Usage: 30340 KB
+Fuse CPU Usage: 2171 ms

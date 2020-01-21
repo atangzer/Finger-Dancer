@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v" Line 42: Port <arg fmt="%s" index="1">Y</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v" Line 46: Port <arg fmt="%s" index="1">sum</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v" Line 67: Port <arg fmt="%s" index="1">test</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v" Line 19: Using initial value of <arg fmt="%s" index="1">rINIT</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\timing.v" Line 34: Port <arg fmt="%s" index="1">Y</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\freqDivider.v" Line 36: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v" Line 48: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\updateScore.v" Line 27: Port <arg fmt="%s" index="1">Co</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\updatePattern.v" Line 26: Port <arg fmt="%s" index="1">Co</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\patternRegister.v" Line 28: Port <arg fmt="%s" index="1">notQ</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v" Line 30: Port <arg fmt="%s" index="1">Y</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v" Line 31: Port <arg fmt="%s" index="1">Y</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v" Line 32: Port <arg fmt="%s" index="1">Y</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v" Line 33: Port <arg fmt="%s" index="1">Y</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\scoreRegister.v" Line 28: Port <arg fmt="%s" index="1">notQ</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\scoreRegister.v" Line 29: Port <arg fmt="%s" index="1">notQ</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\inputRegister.v" Line 28: Port <arg fmt="%s" index="1">notQ</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\display.v" Line 54: Port <arg fmt="%s" index="1">test</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\display.v" Line 34: Using initial value of <arg fmt="%s" index="1">passMessage</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\joshua\Documents\GitHub\finalProject\top_module\display.v" Line 35: Using initial value of <arg fmt="%s" index="1">failMessage</arg> since it is never assigned
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v</arg>&quot; line <arg fmt="%s" index="2">42</arg>: Output port &lt;<arg fmt="%s" index="3">Y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gameStateReg</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v</arg>&quot; line <arg fmt="%s" index="2">42</arg>: Output port &lt;<arg fmt="%s" index="3">notY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gameStateReg</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v</arg>&quot; line <arg fmt="%s" index="2">42</arg>: Output port &lt;<arg fmt="%s" index="3">notQ</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gameStateReg</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v</arg>&quot; line <arg fmt="%s" index="2">42</arg>: Output port &lt;<arg fmt="%s" index="3">S_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gameStateReg</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v</arg>&quot; line <arg fmt="%s" index="2">42</arg>: Output port &lt;<arg fmt="%s" index="3">R_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gameStateReg</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v</arg>&quot; line <arg fmt="%s" index="2">46</arg>: Output port &lt;<arg fmt="%s" index="3">sum</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">timing0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v</arg>&quot; line <arg fmt="%s" index="2">67</arg>: Output port &lt;<arg fmt="%s" index="3">test</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">display0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.v</arg>&quot; line <arg fmt="%s" index="2">67</arg>: Output port &lt;<arg fmt="%s" index="3">test0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">display0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\timing.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">Y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">stateStorage</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\timing.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">notY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">stateStorage</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\timing.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">S_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">stateStorage</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\timing.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">R_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">stateStorage</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\updateScore.v</arg>&quot; line <arg fmt="%s" index="2">27</arg>: Output port &lt;<arg fmt="%s" index="3">Co</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">m0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\updatePattern.v</arg>&quot; line <arg fmt="%s" index="2">26</arg>: Output port &lt;<arg fmt="%s" index="3">Co</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">m0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\patternRegister.v</arg>&quot; line <arg fmt="%s" index="2">28</arg>: Output port &lt;<arg fmt="%s" index="3">notQ</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">m0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">30</arg>: Output port &lt;<arg fmt="%s" index="3">Y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">30</arg>: Output port &lt;<arg fmt="%s" index="3">notY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">30</arg>: Output port &lt;<arg fmt="%s" index="3">S_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">30</arg>: Output port &lt;<arg fmt="%s" index="3">R_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">31</arg>: Output port &lt;<arg fmt="%s" index="3">Y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">31</arg>: Output port &lt;<arg fmt="%s" index="3">notY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">31</arg>: Output port &lt;<arg fmt="%s" index="3">S_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">31</arg>: Output port &lt;<arg fmt="%s" index="3">R_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">Y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">notY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">S_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">R_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">33</arg>: Output port &lt;<arg fmt="%s" index="3">Y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">33</arg>: Output port &lt;<arg fmt="%s" index="3">notY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">33</arg>: Output port &lt;<arg fmt="%s" index="3">S_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\register4bit_async.v</arg>&quot; line <arg fmt="%s" index="2">33</arg>: Output port &lt;<arg fmt="%s" index="3">R_m</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">bit3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\scoreRegister.v</arg>&quot; line <arg fmt="%s" index="2">28</arg>: Output port &lt;<arg fmt="%s" index="3">notQ</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">r0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\scoreRegister.v</arg>&quot; line <arg fmt="%s" index="2">29</arg>: Output port &lt;<arg fmt="%s" index="3">notQ</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">r1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\inputRegister.v</arg>&quot; line <arg fmt="%s" index="2">28</arg>: Output port &lt;<arg fmt="%s" index="3">notQ</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">r0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\display.v</arg>&quot; line <arg fmt="%s" index="2">54</arg>: Output port &lt;<arg fmt="%s" index="3">test</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">m1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\joshua\Documents\GitHub\finalProject\top_module\display.v</arg>&quot; line <arg fmt="%s" index="2">54</arg>: Output port &lt;<arg fmt="%s" index="3">test0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">m1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">Dflipflopinit</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">Dflipflopinit</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">div1/sum_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">timing</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">div1/sum_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">timing</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>

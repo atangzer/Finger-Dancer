@@ -28,13 +28,11 @@ module freqDivider(
     );
 	 reg [3:0] sum=0;
 	 reg reset=0;
-	 
-	 always@ (posedge clr) begin
-		sum=0;
-	 end
-	 
-	 always@ (posedge clk) begin
-		if (sum<freq) begin
+
+	 always@ (posedge clk or posedge clr) begin
+		if(clr==1'b1) begin
+			sum=0;
+		end else	if (sum<freq) begin
 			if(count==1) sum=sum+1;
 			reset=0;
 		end else begin

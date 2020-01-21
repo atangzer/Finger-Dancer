@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.ncd
+OUTFILE=C:\Users\joshua\Documents\GitHub\finalProject\top_module\top.bit
+FAMILY=Kintex7
+PART=xc7k160t-1ffg676
+WORKINGDIR=C:\Users\joshua\Documents\GitHub\finalProject\top_module
+LICENSE=WebPack
+USER_INFO=__0_0_0
