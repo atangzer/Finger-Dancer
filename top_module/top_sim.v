@@ -28,11 +28,15 @@ module top_sim;
 	reg [3:0] SW;
 	reg board_clk;
 	reg rst_btn;
+	reg test_clk;
 
 	// Outputs
 	wire [7:0] LED;
 	wire [3:0] AN;
 	wire [7:0] SEG;
+	wire cout;
+	wire game;
+	wire [3:0] count;
 
 	// Instantiate the Unit Under Test (UUT)
 	top uut (
@@ -41,7 +45,11 @@ module top_sim;
 		.rst_btn(rst_btn), 
 		.LED(LED), 
 		.AN(AN), 
-		.SEG(SEG)
+		.SEG(SEG),
+		.test_clk(test_clk),
+		.cout(cout),
+		.game(game), 
+		.count(count)
 	);
 
 	initial begin
@@ -49,11 +57,103 @@ module top_sim;
 		SW = 0;
 		board_clk = 0;
 		rst_btn = 0;
+		test_clk=0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
         
 		// Add stimulus here
+		
+		#1 rst_btn = 1;
+		#1 rst_btn = 0;
+		
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		#1 board_clk = 1;
+		#1 board_clk = 0;
+		
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		
+		#1 rst_btn = 1;
+		#1 rst_btn = 0;
+		
+		#1 test_clk = 0;
+		#1 test_clk = 1;
+		#1 test_clk = 0;
 
 	end
       
